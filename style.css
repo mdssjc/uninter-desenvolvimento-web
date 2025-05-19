@@ -98,7 +98,7 @@ main h1 {
 main h2 {
     color: var(--primary-color);
     font-size: var(--size-7);
-}    
+}
 
 main .highlight-quote {
     margin: var(--size-3) 0 var(--size-7) 0;
@@ -116,29 +116,53 @@ main .panel {
     background-color: var(--background-color);
 }
 
-/* Estilos do conteúdo principal aplicados na página inicial */
-.main-page-items ul {
+/* Estilos do conteúdo principal - lista de itens */
+.main-items ul {
     margin: 0;
     padding: 0;
 }
 
-.main-page-items li {
+.main-items li {
     padding: var(--size-2);
     list-style-type: none;
 }
 
-.main-page-items li img {
+.main-items li img {
     vertical-align: bottom;
 }
 
-.main-page-items li a {
+.main-items li a {
     text-decoration: none;
     text-transform: uppercase;
+    color: var(--primary-color);
 }
 
-.main-page-items li a:hover {
+.main-items li a:hover {
     color: var(--text-warning-color);
 }
+
+.main-items-year {
+    color: var(--primary-color);
+}
+
+/* Estilos do conteúdo principal - formulário */
+.main-form fieldset {
+    margin-bottom: var(--size-8);
+    border: 1px solid var(--primary-lighter-color);
+    border-radius: var(--size-3);
+}
+
+.main-form legend {
+    font-weight: bold;
+}
+
+.main-form input[type="text"],
+.main-form input[type="email"],
+.main-form textarea {
+    padding: var(--size-1);
+    border: 1px solid var(--primary-lighter-color);
+    border-radius: var(--size-3);
+  }
 
 /* Estilos do rodapé */
 footer {
